@@ -80,8 +80,14 @@
 		<finalName>accounts</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
+				<configuration>
+					<to>
+						<image>galatex/${project.artifactId}:2.0</image>
+					</to>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
