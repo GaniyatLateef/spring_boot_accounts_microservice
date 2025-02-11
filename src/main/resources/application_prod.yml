@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs"
+  contactDetails:
+    name: "John Doe - Product owner"
+    email: "john@eazybank.com"
+  onCallSupport:
+    -(+61) 666-7890
